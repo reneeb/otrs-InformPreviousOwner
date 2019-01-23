@@ -1,0 +1,19 @@
+{
+    "name": "InformPreviousOwner",
+    "version": "6.0.1",
+    "framework": [
+        "6.0.x"
+    ],
+    "vendor": {
+        "name": "Perl-Services.de",
+        "url": "http://www.perl-services.de"
+    },
+    "license": "GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007",
+    "description" : {
+        "en": "Send notification to previous owner",
+        "de": "Sende Benachrichtigung an vorherigen Besitzer"
+    },
+    "exclude_files" : [
+        "doc/InformPreviousOwner.json"
+    ]
+}

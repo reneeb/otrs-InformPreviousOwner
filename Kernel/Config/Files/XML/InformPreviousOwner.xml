@@ -1,0 +1,20 @@
+i<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="2.0" init="Application">
+    <Setting Name="Ticket::EventModulePost###1032-InformPreviousOwner" Required="0" Valid="1">
+        <Description Translatable="1">Inform previous owner about.</Description>
+        <Navigation>Core::Event::Ticket</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="Module">Kernel::System::Ticket::Event::InformPreviousOwner</Item>
+                <Item Key="Event">TicketOwnerUpdate</Item>
+            </Hash>
+        </Value>
+    </Setting>
+   <Setting Name="InformPreviousOwner::Notification" Required="0" Valid="1">
+        <Description Translatable="1">The name of the notification that should be used.</Description>
+        <Navigation>Core::Ticket</Navigation>
+        <Value>
+            <Item ValueType="String" ValueRegex=""></Item>
+        </Value>
+    </Setting>
+</otrs_config>
